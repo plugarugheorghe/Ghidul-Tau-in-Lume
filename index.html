@@ -1,11 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Practica de inițiere RC-241</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    .content {
+      flex: 1;
+    }
+
+    button {
+      background-color: white;
+      border: 2px solid black;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+    }
+
+    button.active {
+      background-color: black;
+    }
+  </style>
 </head>
 <body>
-    
+
+  <div class="navbar" style="background-color:blue; color:white; padding:15px; position:relative; text-align:center; font-size:20px;">
+    <div style="position:absolute; left:10px; top:10px; font-size:14px;">Gheorghe</div>
+    <div style="position:absolute; right:10px; top:10px; font-size:14px;">Gheorghe</div>
+    Practica de inițiere RC-241
+  </div>
+
+  <div class="content">
+    <br><br>
+    <div style="display: flex; justify-content:space-between; align-items:flex-start; padding: 0 50px;">
+      <div style="flex: 1; text-align:left;">
+        <input type="text" placeholder="text" style="width: 250px; height: 40px; font-size: 16px;">
+      </div>
+      <div style="flex: 1; text-align:center;">
+        <label for="importanta" style="display:block; margin-bottom: 5px; font-weight: bold;">Mediu/importanță</label>
+        <select id="importanta" style="width: 250px; height: 40px; font-size: 16px;">
+          <option value="">Selectează...</option>
+          <option value="mediu">Mediu</option>
+          <option value="importanta">Importanță</option>
+        </select>
+      </div>
+
+      <div style="flex: 1; text-align:right;">
+        <input type="date" style="width: 250px; height: 40px; font-size: 16px;">
+      </div>
+    </div>
+    <br><br>
+    <div style="text-align:center;">
+      <img src="https://www.itss.paris/sites/itss-dev/files/styles/scaling_cropping_1200x800/public/2017-12/HTML5_0_0.jpg?itok=bnzL8xFI" width="350px" alt="Imagine 1">
+      <img src="https://jbstechinfo.com/wp-content/uploads/2023/08/JavaScript-Symbol.png" width="500px" alt="Imagine 2">
+      <img src="https://www.adaweb.es/wp-content/uploads/2019/09/css-logo-adaweb-scalia-blog-default.png" width="400px" alt="Imagine 3">
+    </div>
+
+    <br><br>
+
+    <div style="display:flex; justify-content:center; gap:40px; align-items:center;">
+      <div>
+        <button id="button" onclick="toggleButton()"> </button>
+        <span>varianta corectă</span>
+      </div>
+      <div>
+        <input type="checkbox" id="raspuns">
+        <label for="raspuns">răspuns corect</label>
+      </div>
+    </div>
+
+    <br><br>
+
+  </div> 
+  <footer style="background-color:blue; color:white; padding:15px; font-size:14px; display:flex; justify-content:space-between; align-items:center; height: 60px;">
+    <div>Gheorghe</div>
+    <div> 2025 Plugaru Gheorghe</div>
+    <div>Gheorghe</div>
+  </footer>
+
+  <script>
+    function toggleButton() {
+      const button = document.getElementById("button");
+      button.classList.toggle("active"); 
+    }
+  </script>
+
 </body>
 </html>

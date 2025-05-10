@@ -1,4 +1,4 @@
-/* Reset Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,14 +12,13 @@
     line-height: 1.6;
   }
   
-  /* Container */
+
   .container {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
   }
   
-  /* Navbar */
   .navbar {
     background: #fff;
     padding: 20px 0;
@@ -65,7 +64,6 @@
     cursor: pointer;
   }
   
-  /* Breadcrumb */
   .breadcrumb {
     background: #f7f7f7;
     padding: 15px 0;
@@ -76,8 +74,7 @@
   .breadcrumb p {
     color: #666;
   }
-  
-  /* Courses Page Layout */
+
   .courses-page {
     padding: 40px 0;
   }
@@ -88,22 +85,18 @@
     gap: 30px;
   }
   
-  /* Courses Main Section */
   .courses-main h2 {
     font-size: 28px;
     margin-bottom: 15px;
   }
   
- /* Top Bar Styles */
-/* Top Bar Styles */
-/* Updated Top Bar Styles */
 .top-bar {
     display: flex;
-    justify-content: space-between; /* Aligns elements */
+    justify-content: space-between; 
     align-items: center;
     width: 100%;
-    border-bottom: none; /* Removes the horizontal line */
-    margin-bottom: 0; /* Ensures no extra space */
+    border-bottom: none; 
+    margin-bottom: 0;
   }
   
   .title {
@@ -150,10 +143,9 @@
     cursor: pointer;
     border-radius: 50%;
     background-image: url('https://static.vecteezy.com/system/resources/thumbnails/000/422/468/small/Multimedia__28107_29.jpg');
-    background-size: cover; /* Ensure the image fully covers the div */
-    background-position: center; /* Center the image */
+    background-size: cover; 
+    background-position: center; 
   }
-  /* Course Card */
   .course-card {
     display: flex;
     border: 1px solid #e0e0e0;
@@ -200,7 +192,7 @@
   .course-author {
     font-size: 14px;
     color: #666;
-    margin: 0 0 5px; /* Adds spacing below the author */
+    margin: 0 0 5px; 
   }
   
   .course-title {
@@ -242,11 +234,11 @@
   }
   
   .price-amount {
-    color: lightgray; /* Set $29.0 to gray */
+    color: lightgray; 
   }
   
   .price-free {
-    color: #28a745; /* Set Free to green */
+    color: #28a745; 
   }
   
   .course-link {
@@ -283,7 +275,6 @@
     font-weight: 500;
   }
   
-  /* Sidebar */
   .sidebar h4 {
     font-size: 18px;
     margin: 20px 0 10px;
@@ -314,10 +305,10 @@
   }
   
   .filter-list input[type="checkbox"]:checked {
-    accent-color: black; /* Modern browsers support */
+    accent-color: black; 
   }
   
-  /* Pagination */
+  
   .pagination {
     display: flex;
     justify-content: center;
@@ -328,36 +319,35 @@
   
   .pagination a {
     display: inline-block;
-    width: 40px; /* Circle size */
-    height: 40px; /* Circle size */
-    line-height: 40px; /* Vertically center text */
+    width: 40px;
+    height: 40px; 
+    line-height: 40px; 
     text-align: center;
     margin: 0 5px;
-    border-radius: 50%; /* Makes the element circular */
-    border: 2px solid lightgrey; /* Outline for non-active buttons */
-    color: black; /* Text color */
+    border-radius: 50%; 
+    border: 2px solid lightgrey; 
+    color: black; 
     text-decoration: none;
-    background-color: white; /* Background for non-active buttons */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+    background-color: white; 
+    transition: background-color 0.3s, color 0.3s; 
   }
   
   .pagination a:hover {
-    background-color: black; /* Background changes to black on hover */
-    color: white; /* Text color changes to white on hover */
+    background-color: black; 
+    color: white; 
   }
   
   .pagination a.active {
-    border: 2px solid lightgrey; /* Same border as others */
-    background-color: white; /* Same white background as others */
-    color: black; /* Same black text as others */
+    border: 2px solid lightgrey;
+    background-color: white;
+    color: black; 
   }
   
   .pagination a.active:hover {
-    background-color: black; /* Same hover effect as others */
-    color: white; /* Text color becomes white on hover */
+    background-color: black;
+    color: white;
   }
   
-  /* Footer */
   .footer {
     background-color: #f9f9f9;
     padding: 60px 0 20px;
@@ -399,7 +389,7 @@
   }
   
 .footer .social-icons .fa-pinterest-p {
-    color: orange; /* Changes the Pinterest icon to orange */
+    color: orange; 
   }
   .footer-column ul li a:hover {
     color: #f27c1e;

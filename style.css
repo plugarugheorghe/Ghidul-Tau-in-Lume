@@ -129,20 +129,19 @@
     color: #777;
   }
   
-  /* Secțiune pentru categoriile de pe pagină */
   .grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Creăm 5 coloane egale */
-    gap: 20px; /* Distanța între carduri */
-    justify-items: center; /* Centrează elementele pe orizontală în fiecare coloană */
-    align-items: center; /* Centrează elementele pe verticală în fiecare coloană */
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 20px; 
+    justify-items: center; 
+    align-items: center; 
     max-width: 1000px;
-    margin: 0 auto; /* Centrează grila pe pagină */
-    height: 300px; /* Limitează înălțimea grilei */
-    overflow-y: auto; /* Permite derularea pe verticală dacă este necesar */
+    margin: 0 auto; 
+    height: 300px; 
+    overflow-y: auto; 
   }
   
-  /* Cardurile categoriilor */
+  
   .cat-box {
     padding: 20px;
     border: 1px solid #eee;
@@ -153,13 +152,13 @@
     text-align: center;
   }
   
-  /* Efect de hover pe card */
+  
   .cat-box:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   }
   
-  /* Cardul activ (subliniază categoria activă) */
+
   .cat-box.active {
     background-color: white;
   }
@@ -251,14 +250,14 @@
     color: none;
   }
   a:visited {
-    color: black; /* Set visited links to black */
+    color: black; 
   }
   .nav-link {
-    text-decoration: none; /* Removes underline */
-    color: black; /* Optional: Set a specific text color */
+    text-decoration: none; 
+    color: black; 
   }
   
   .nav-link:hover {
-    text-decoration: underline; /* Adds underline only on hover */
-    color: orange; /* Change color on hover (optional) */
+    text-decoration: underline; 
+    color: orange; 
   }

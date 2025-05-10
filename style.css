@@ -88,13 +88,13 @@
   }
   
   .comment-btn {
-    background: #f27c1e;
-    color: #fff;
-    padding: 12px 25px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 4px;
+    background-color: orange;
+    border: 2px solid orange;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s;
   }
   
   .hero-image img {
@@ -161,8 +161,7 @@
   
   /* Cardul activ (subliniază categoria activă) */
   .cat-box.active {
-    border: 2px solid #ff8000;
-    background-color: #fff9e6;
+    background-color: white;
   }
   .footer {
     background-color: #f9f9f9;
@@ -215,6 +214,9 @@
     transition: color 0.3s;
   }
   
+.footer .social-icons .fa-pinterest-p {
+  color: orange; 
+}
   .footer-column .social-icons span:hover {
     color: #f27c1e;
   }
@@ -236,8 +238,8 @@
   
   .btn-outline {
     background-color: transparent;
-    border: 2px solid #f27c1e;
-    color: #f27c1e;
+    border: 2px solid grey;
+    color: black;
     padding: 10px 25px;
     border-radius: 25px;
     font-weight: 600;
@@ -245,7 +247,18 @@
   }
   
   .btn-outline:hover {
-    background-color: #f27c1e;
-    color: white;
+    background-color: none;
+    color: none;
+  }
+  a:visited {
+    color: black; /* Set visited links to black */
+  }
+  .nav-link {
+    text-decoration: none; /* Removes underline */
+    color: black; /* Optional: Set a specific text color */
   }
   
+  .nav-link:hover {
+    text-decoration: underline; /* Adds underline only on hover */
+    color: orange; /* Change color on hover (optional) */
+  }

@@ -1,456 +1,417 @@
-Plugaru Gheorghe
-plugaru_gheorghe
-Online
-
-TheReaper — 12:35
-fveafga
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Courses - eLearning CUTM</title>
-    <link rel="stylesheet" href="course.css">
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Courses - eLearning CUTM</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="pagina2.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <i class="fa-solid fa-book-open" style="color:#fd7902; font-size:1.5em;margin-right:7px;vertical-align:middle;"></i>
-                eLearning CUTM
-            </div>
-            <nav class="nav">
-                <a href="index.html">Home</a>
-                <a href="courses.html" >Courses</a>
-                <a href="#">Blog</a>
-                <a href="#">Page</a>
-                <a href="#">LearnPress Add-On</a>
-                <a href="#">Premium Theme</a>
-                <a href="#" class="login">Login / Register</a>
-            </nav>
-        </div>
-    </header>
+  <!-- Top Bar & Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">
+        <i class="fas fa-book-open" style="color: orange;"></i>
+        <b>eLearning CUTM</b>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="sarcina.html"><b>Home</b></a></li>
+          <li class="active"><a href="#"><b>Courses</b></a></li>
+          <li><a href="#"><b>Blog</b></a></li>
+          <li><a href="#"><b>Page</b></a></li>
+          <li><a href="#"><b>LearnPress Add-On</b></a></li>
+          <li><a href="#"><b>Premium Theme</b></a></li>
+        </ul>
+      </nav>
+      <div class="auth">
+        <b>Login / Register</b>
+        <span class="search-icon"><i class="fas fa-search" style="color: orange;"></i></span>
+      </div>
+    </div>
+  </header>
 
-    <main class="courses-main">
-        <div class="courses-breadcrumb">
-            <span>Course</span>
-            <i class="fa-solid fa-chevron-right"></i>
-            <span>All Courses</span>
-        </div>
-        <section class="all-courses-section">
-            <div class="all-courses-header">
-                <h1>All Courses</h1>
-                <div class="courses-search-sort">
-                    <input type="text" placeholder="Search..." class="courses-search-input"/>
-                    <div class="courses-view-options">
-                        <i class="fa-solid fa-th"></i>
-                        <i class="fa-solid fa-list"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="courses-content">
-                <div class="courses-list">
-                    <!-- Course Card 1 -->
-                    <div class="course-card">
-                        <div class="course-thumb">
-                            <img src="https://img.freepik.com/free-vector/online-learning-concept-illustration_114360-5327.jpg?w=500" alt="Course 1">
-                            <span class="course-category">Photography</span>
-                        </div>
-                        <div class="course-info">
-                            <div class="course-meta">
-                                <span>By <b>DanielaPishch</b></span>
-                            </div>
-                            <a class="course-title" href="#">Create An LMS Website With LearnPress</a>
-                            <div class="course-details">
-                                <span><i class="fa-regular fa-clock"></i> 2 Weeks</span>
-                                <span><i class="fa-regular fa-user"></i> 150 Students</span>
-                                <span><i class="fa-solid fa-book"></i> 30 Lessons</span>
-                            </div>
-                            <div class="course-bottom">
-                                <span class="course-price">Free</span>
-                                <a href="#" class="course-view-more">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Course Card 2: cu poză sigur funcțională -->
-                    <div class="course-card">
-                        <div class="course-thumb">
-                            <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=400&q=80" alt="Course 2">
-                            <span class="course-category">Photography</span>
-                        </div>
-                        <div class="course-info">
-                            <div class="course-meta">
-                                <span>By <b>DanielaPishch</b></span>
-                            </div>
-                            <a class="course-title" href="#">Create An LMS Website With LearnPress</a>
-                            <div class="course-details">
-                                <span><i class="fa-regular fa-clock"></i> 2 Weeks</span>
-                                <span><i class="fa-regular fa-user"></i> 150 Students</span>
-                                <span><i class="fa-solid fa-book"></i> 30 Lessons</span>
-                            </div>
-                            <div class="course-bottom">
-                                <span class="course-price">Free</span>
-                                <a href="#" class="course-view-more">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Course Card 3 -->
-                    <div class="course-card">
-                        <div class="course-thumb">
-                            <img src="https://img.freepik.com/free-photo/side-view-woman-reading-book_23-2149300643.jpg?w=500" alt="Course 3">
-                            <span class="course-category">Photography</span>
-                        </div>
-                        <div class="course-info">
-... (233 rânduri rămase)
-Restrânge
-message.txt
-18 KB
-body {
-    margin: 0;
-    font-family: 'Segoe UI', 'Arial', sans-serif;
-    background: #fff;
-    color: #222;
-}
-Extinde
-message.txt
-10 KB
-﻿
-TheReaper
-_thereaper1_
- 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Courses - eLearning CUTM</title>
-    <link rel="stylesheet" href="course.css">
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-</head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <i class="fa-solid fa-book-open" style="color:#fd7902; font-size:1.5em;margin-right:7px;vertical-align:middle;"></i>
-                eLearning CUTM
-            </div>
-            <nav class="nav">
-                <a href="index.html">Home</a>
-                <a href="courses.html" >Courses</a>
-                <a href="#">Blog</a>
-                <a href="#">Page</a>
-                <a href="#">LearnPress Add-On</a>
-                <a href="#">Premium Theme</a>
-                <a href="#" class="login">Login / Register</a>
-            </nav>
-        </div>
-    </header>
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <div class="container">
+    </div>
+  </div>
 
-    <main class="courses-main">
-        <div class="courses-breadcrumb">
-            <span>Course</span>
-            <i class="fa-solid fa-chevron-right"></i>
-            <span>All Courses</span>
-        </div>
-        <section class="all-courses-section">
-            <div class="all-courses-header">
-                <h1>All Courses</h1>
-                <div class="courses-search-sort">
-                    <input type="text" placeholder="Search..." class="courses-search-input"/>
-                    <div class="courses-view-options">
-                        <i class="fa-solid fa-th"></i>
-                        <i class="fa-solid fa-list"></i>
-                    </div>
-                </div>
+  <!-- Main Content -->
+  <section class="courses-page">
+    <div class="container grid-2">
+      <!-- Courses Column -->
+      <div class="courses-main">
+        <div class="top-bar">
+            <div class="title">All Courses</div>
+            <div class="search-bar-container">
+              <input type="text" class="search-input" placeholder="Search">
+              <i class="fas fa-search search-icon"></i>
+              <i class="fas fa-th-large grid-icon"></i>
+              <div class="custom-icon"></div>
             </div>
-            <div class="courses-content">
-                <div class="courses-list">
-                    <!-- Course Card 1 -->
-                    <div class="course-card">
-                        <div class="course-thumb">
-                            <img src="https://img.freepik.com/free-vector/online-learning-concept-illustration_114360-5327.jpg?w=500" alt="Course 1">
-                            <span class="course-category">Photography</span>
-                        </div>
-                        <div class="course-info">
-                            <div class="course-meta">
-                                <span>By <b>DanielaPishch</b></span>
-                            </div>
-                            <a class="course-title" href="#">Create An LMS Website With LearnPress</a>
-                            <div class="course-details">
-                                <span><i class="fa-regular fa-clock"></i> 2 Weeks</span>
-                                <span><i class="fa-regular fa-user"></i> 150 Students</span>
-                                <span><i class="fa-solid fa-book"></i> 30 Lessons</span>
-                            </div>
-                            <div class="course-bottom">
-                                <span class="course-price">Free</span>
-                                <a href="#" class="course-view-more">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Course Card 2: cu poză sigur funcțională -->
-                    <div class="course-card">
-                        <div class="course-thumb">
-                            <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=400&q=80" alt="Course 2">
-                            <span class="course-category">Photography</span>
-                        </div>
-                        <div class="course-info">
-                            <div class="course-meta">
-                                <span>By <b>DanielaPishch</b></span>
-                            </div>
-                            <a class="course-title" href="#">Create An LMS Website With LearnPress</a>
-                            <div class="course-details">
-                                <span><i class="fa-regular fa-clock"></i> 2 Weeks</span>
-                                <span><i class="fa-regular fa-user"></i> 150 Students</span>
-                                <span><i class="fa-solid fa-book"></i> 30 Lessons</span>
-                            </div>
-                            <div class="course-bottom">
-                                <span class="course-price">Free</span>
-                                <a href="#" class="course-view-more">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Course Card 3 -->
-                    <div class="course-card">
-                        <div class="course-thumb">
-                            <img src="https://img.freepik.com/free-photo/side-view-woman-reading-book_23-2149300643.jpg?w=500" alt="Course 3">
-                            <span class="course-category">Photography</span>
-                        </div>
-                        <div class="course-info">
-                            <div class="course-meta">
-                                <span>By <b>DanielaPishch</b></span>
-                            </div>
-                            <a class="course-title" href="#">Create An LMS Website With LearnPress</a>
-                            <div class="course-details">
-                                <span><i class="fa-regular fa-clock"></i> 2 Weeks</span>
-                                <span><i class="fa-regular fa-user"></i> 150 Students</span>
-                                <span><i class="fa-solid fa-book"></i> 30 Lessons</span>
-                            </div>
-                            <div class="course-bottom">
-                                <span class="course-price">Free</span>
-                                <a href="#" class="course-view-more">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Course Card 4 -->
-                    <div class="course-card">
-                        <div class="course-thumb">
-                            <img src="https://img.freepik.com/free-photo/portrait-student-girl_23-2148207059.jpg?w=500" alt="Course 4">
-                            <span class="course-category">Photography</span>
-                        </div>
-                        <div class="course-info">
-                            <div class="course-meta">
-                                <span>By <b>DanielaPishch</b></span>
-                            </div>
-                            <a class="course-title" href="#">Create An LMS Website With LearnPress</a>
-                            <div class="course-details">
-                                <span><i class="fa-regular fa-clock"></i> 2 Weeks</span>
-                                <span><i class="fa-regular fa-user"></i> 150 Students</span>
-                                <span><i class="fa-solid fa-book"></i> 30 Lessons</span>
-                            </div>
-                            <div class="course-bottom">
-                                <span class="course-price">Free</span>
-                                <a href="#" class="course-view-more">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Course Card 5 -->
-                    <div class="course-card">
-                        <div class="course-thumb">
-                            <img src="https://img.freepik.com/free-photo/close-up-hand-writing-notebook_23-2149300727.jpg?w=500" alt="Course 5">
-                            <span class="course-category">Photography</span>
-                        </div>
-                        <div class="course-info">
-                            <div class="course-meta">
-                                <span>By <b>DanielaPishch</b></span>
-                            </div>
-                            <a class="course-title" href="#">Create An LMS Website With LearnPress</a>
-                            <div class="course-details">
-                                <span><i class="fa-regular fa-clock"></i> 2 Weeks</span>
-                                <span><i class="fa-regular fa-user"></i> 150 Students</span>
-                                <span><i class="fa-solid fa-book"></i> 30 Lessons</span>
-                            </div>
-                            <div class="course-bottom">
-                                <span class="course-price">Free</span>
-                                <a href="#" class="course-view-more">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Course Card 6 -->
-                    <div class="course-card">
-                        <div class="course-thumb">
-                            <img src="https://img.freepik.com/free-photo/woman-studying-library_23-2149300637.jpg?w=500" alt="Course 6">
-                            <span class="course-category">Photography</span>
-                        </div>
-                        <div class="course-info">
-                            <div class="course-meta">
-                                <span>By <b>DanielaPishch</b></span>
-                            </div>
-                            <a class="course-title" href="#">Create An LMS Website With LearnPress</a>
-                            <div class="course-details">
-                                <span><i class="fa-regular fa-clock"></i> 2 Weeks</span>
-                                <span><i class="fa-regular fa-user"></i> 150 Students</span>
-                                <span><i class="fa-solid fa-book"></i> 30 Lessons</span>
-                            </div>
-                            <div class="course-bottom">
-                                <span class="course-price">Free</span>
-                                <a href="#" class="course-view-more">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Pagination -->
-                    <div class="courses-pagination">
-                        <a href="#" class="active">1</a>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
-                    </div>
-                </div>
-                <aside class="courses-sidebar">
-                    <div class="sidebar-block">
-                        <h3>Course Category</h3>
-                        <ul>
-                            <li>Commercial <span>15</span></li>
-                            <li>Office <span>15</span></li>
-                            <li>Shop <span>15</span></li>
-                            <li>Education <span>15</span></li>
-                            <li>Academy <span>15</span></li>
-                            <li>Cooking / living home <span>15</span></li>
-                            <li>Other <span>15</span></li>
-                        </ul>
-                    </div>
-                    <div class="sidebar-block">
-                        <h3>Instructors</h3>
-                        <ul>
-                            <li>Kevin White <span>15</span></li>
-                            <li>Olga Doe <span>15</span></li>
-                            <li>John Doe <span>15</span></li>
-                        </ul>
-                    </div>
-                    <div class="sidebar-block">
-                        <h3>Review</h3>
-                        <ul class="sidebar-review-list">
-                            <li>
-                                <span class="star-list">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </span>
-                                <span>(0.058)</span>
-                            </li>
-                            <li>
-                                <span class="star-list">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </span>
-                                <span>(0.025)</span>
-                            </li>
-                            <li>
-                                <span class="star-list">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </span>
-                                <span>(0.012)</span>
-                            </li>
-                            <li>
-                                <span class="star-list">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </span>
-                                <span>(0.008)</span>
-                            </li>
-                            <li>
-                                <span class="star-list">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </span>
-                                <span>(0.003)</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="sidebar-block">
-                        <h3>Level</h3>
-                        <ul>
-                            <li>All level <span>15</span></li>
-                            <li>Beginner <span>15</span></li>
-                            <li>Intermediate <span>15</span></li>
-                            <li>Expert <span>15</span></li>
-                        </ul>
-                    </div>
-                </aside>
-            </div>
-        </section>
-    </main>
+          </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-main">
-            <div class="footer-brand">
-                <div class="footer-logo">
-                    <i class="fa-solid fa-book-open" style="color:#fd7902; font-size:2em; margin-right:8px;"></i>
-                    <span class="footer-brand-text"><b>eLearning CUTM</b></span>
-                </div>
-                <p class="footer-desc">
-                    Lorem ipsum dolor sit amet, consectetur<br>
-                    adipisicing elit, sed do eiusmod tempor<br>
-                    incididunt ut labore et dolore magna aliqua.
-                </p>
+        <!-- Course Card -->
+        <div class="course-card">
+            <div class="course-image">
+              <img src="https://eduma.thimpress.com/demo-online-learning/wp-content/uploads/sites/104/2022/11/create-an-lms-website-with-learnpress-4-820x548.png" alt="Course Image">
+              <div class="course-badge">Photography</div>
             </div>
-            <div class="footer-col">
-                <span class="footer-title">GET HELP</span>
-                <ul>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Latest Articles</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
+            <div class="course-details">
+              <p class="course-author">by DetermentPhotos</p>
+              <h3 class="course-title">Create An LMS Website With LearnPress</h3>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 2 Weeks</span>
+                <span><i class="fas fa-users"></i> 150 Students</span>
+                <span><i class="fas fa-signal"></i> All Levels</span>
+                <span><i class="fas fa-book"></i> 20 Lessons</span>
+              </div>
+              <div class="course-footer">
+                <span class="course-price">
+                  <span class="price-amount">$29.0</span> <span class="price-free">Free</span>
+                </span>
+                <span class="course-link">View More</span>
+              </div>
             </div>
-            <div class="footer-col">
-                <span class="footer-title">PROGRAMS</span>
-                <ul>
-                    <li><a href="#">Art & Design</a></li>
-                    <li><a href="#" class="footer-highlight">Business</a></li>
-                    <li><a href="#">IT & Software</a></li>
-                    <li><a href="#">Languages</a></li>
-                    <li><a href="#">Programming</a></li>
-                </ul>
+          </div>
+          
+          <div class="course-card">
+            <div class="course-image">
+              <img src="https://thimpress.com/wp-content/uploads/2024/08/thimpress-og-image.jpg" alt="Course Image">
+              <div class="course-badge">Photography</div>
             </div>
-            <div class="footer-col">
-                <span class="footer-title">CONTACT US</span>
-                <div class="footer-contact">
-                    <p>Address: 2321 New Design Str, Lorem Ipsum10<br>Hudson Yards, USA</p>
-                    <p>Tel: + (123) 2500-567-8988<br>
-                       Mail: supportlms@gmail.com
-                    </p>
-                    <div class="footer-social">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                        <a href="#"><i class="fab fa-x-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
+            <div class="course-details">
+              <p class="course-author">by DetermentPhotos</p>
+              <h3 class="course-title">Create An LMS Website With LearnPress</h3>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 2 Weeks</span>
+                <span><i class="fas fa-users"></i> 150 Students</span>
+                <span><i class="fas fa-signal"></i> All Levels</span>
+                <span><i class="fas fa-book"></i> 20 Lessons</span>
+              </div>
+              <div class="course-footer">
+                <span class="course-price">
+                  <span class="price-amount">$29.0</span> <span class="price-free">Free</span>
+                </span>
+                <span class="course-link">View More</span>
+              </div>
             </div>
+          </div>
+          
+          <div class="course-card">
+            <div class="course-image">
+              <img src="https://cdn.pixabay.com/photo/2017/08/07/15/16/girl-2604837_1280.jpg" alt="Course Image">
+              <div class="course-badge">Photography</div>
+            </div>
+            <div class="course-details">
+              <p class="course-author">by DetermentPhotos</p>
+              <h3 class="course-title">Create An LMS Website With LearnPress</h3>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 2 Weeks</span>
+                <span><i class="fas fa-users"></i> 150 Students</span>
+                <span><i class="fas fa-signal"></i> All Levels</span>
+                <span><i class="fas fa-book"></i> 20 Lessons</span>
+              </div>
+              <div class="course-footer">
+                <span class="course-price">
+                  <span class="price-amount">$29.0</span> <span class="price-free">Free</span>
+                </span>
+                <span class="course-link">View More</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="course-card">
+            <div class="course-image">
+              <img src="https://ru.diez.md/wp-content/uploads/2024/02/64b14e05753f950efc4930ee_pexels-cottonbro-studio-4065876-1.jpg" alt="Course Image">
+              <div class="course-badge">Photography</div>
+            </div>
+            <div class="course-details">
+              <p class="course-author">by DetermentPhotos</p>
+              <h3 class="course-title">Create An LMS Website With LearnPress</h3>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 2 Weeks</span>
+                <span><i class="fas fa-users"></i> 150 Students</span>
+                <span><i class="fas fa-signal"></i> All Levels</span>
+                <span><i class="fas fa-book"></i> 20 Lessons</span>
+              </div>
+              <div class="course-footer">
+                <span class="course-price">
+                  <span class="price-amount">$29.0</span> <span class="price-free">Free</span>
+                </span>
+                <span class="course-link">View More</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="course-card">
+            <div class="course-image">
+              <img src="https://cdn.pixabay.com/photo/2018/03/19/18/20/tea-time-3240766_960_720.jpg" alt="Course Image">
+              <div class="course-badge">Photography</div>
+            </div>
+            <div class="course-details">
+              <p class="course-author">by DetermentPhotos</p>
+              <h3 class="course-title">Create An LMS Website With LearnPress</h3>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 2 Weeks</span>
+                <span><i class="fas fa-users"></i> 150 Students</span>
+                <span><i class="fas fa-signal"></i> All Levels</span>
+                <span><i class="fas fa-book"></i> 20 Lessons</span>
+              </div>
+              <div class="course-footer">
+                <span class="course-price">
+                  <span class="price-amount">$29.0</span> <span class="price-free">Free</span>
+                </span>
+                <span class="course-link">View More</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="course-card">
+            <div class="course-image">
+              <img src="https://cdn.pixabay.com/photo/2022/12/22/11/10/woman-7671984_1280.jpg" alt="Course Image">
+              <div class="course-badge">Photography</div>
+            </div>
+            <div class="course-details">
+              <p class="course-author">by DetermentPhotos</p>
+              <h3 class="course-title">Create An LMS Website With LearnPress</h3>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 2 Weeks</span>
+                <span><i class="fas fa-users"></i> 150 Students</span>
+                <span><i class="fas fa-signal"></i> All Levels</span>
+                <span><i class="fas fa-book"></i> 20 Lessons</span>
+              </div>
+              <div class="course-footer">
+                <span class="course-price">
+                  <span class="price-amount">$29.0</span> <span class="price-free">Free</span>
+                </span>
+                <span class="course-link">View More</span>
+              </div>
+            </div>
+          </div>
+        <!-- Pagination -->
+        <div class="pagination">
+          <a href="#">«</a>
+          <a href="#" class="active">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">»</a>
         </div>
-        <div class="footer-bottom">
-            Copyright © 2024 LearnPress LMS | Powered by ThimPress
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <!-- Course Category -->
+        <h4>Course Category</h4>
+        <ul class="filter-list">
+          <li>
+            <label>
+              <input type="checkbox">
+              Commercial <span>15</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              Office <span>15</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              Shop <span>15</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              Education <span>15</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              Academy <span>15</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              English family home <span>15</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              Studio <span>15</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              University <span>15</span>
+            </label>
+          </li>
+        </ul>
+
+        <!-- Instructors -->
+        <h4>Instructors</h4>
+        <ul class="filter-list">
+          <li>
+            <label>
+              <input type="checkbox">
+              Kessy White <span>15</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              John Doe <span>16</span>
+            </label>
+          </li>
+        </ul>
+
+        <!-- Price -->
+        <h4>Price</h4>
+        <ul class="filter-list">
+          <li>
+            <label>
+              <input type="checkbox">
+              All <span>15</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              Free <span>15</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              Paid <span>15</span>
+            </label>
+          </li>
+        </ul>
+
+        <!-- Review -->
+        <h4>Review</h4>
+    <ul class="filter-list">
+      <li>
+        <label>
+          <input type="checkbox">
+          <span class="stars">★★★★★</span> <span>(1,025)</span>
+        </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox">
+          <span class="stars">★★★★☆</span> <span>(1,025)</span>
+        </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox">
+          <span class="stars">★★★☆☆</span> <span>(1,025)</span>
+        </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox">
+          <span class="stars">★★☆☆☆</span> <span>(1,025)</span>
+        </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox">
+          <span class="stars">★☆☆☆☆</span> <span>(1,025)</span>
+        </label>
+      </li>
+    </ul>
+
+        <!-- Level -->
+        <h4>Level</h4>
+        <ul class="filter-list">
+          <li>
+            <label>
+              <input type="checkbox">
+              All levels <span>15</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              Beginner <span>15</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              Intermediate <span>15</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              Expert <span>15</span>
+            </label>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-column">
+        <div class="logo">
+          <i class="fas fa-book-open" style="color: orange;"></i>
+          <b>eLearning CUTM</b>
         </div>
-    </footer>
+      </div>
+      <div class="footer-column">
+        <h4>GET HELP</h4>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Latest Articles</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>PROGRAMS</h4>
+        <ul>
+          <li><a href="#">Art & Design</a></li>
+          <li><a href="#" style="color: orange;">Business</a></li>
+          <li><a href="#">IT & Software</a></li>
+          <li><a href="#">Languages</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>CONTACT US</h4>
+        <p>
+          Address: 2321 New Design Str, Lorem Ipsum10<br>
+          Hudson Yards, USA
+        </p>
+        <p>
+          Tel: + (123) 2500-567-8988<br>
+          Mail: supportlms@gmail.com
+        </p>
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright © 2024 LearnPress LMS | Powered by ThimPress</p>
+    </div>
+  </footer>
 </body>
 </html>
